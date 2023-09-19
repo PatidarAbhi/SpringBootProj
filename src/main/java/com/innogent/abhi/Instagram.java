@@ -8,6 +8,11 @@ import org.springframework.stereotype.Component;
 /* @Primary */
 @Qualifier("insta")
 public class Instagram implements Applications {
+	
+	public Instagram() {
+		// TODO Auto-generated constructor stub
+		System.out.println("Instagram.Instagram()");
+	}
 
 	@Override
 	public void doubleClick() {

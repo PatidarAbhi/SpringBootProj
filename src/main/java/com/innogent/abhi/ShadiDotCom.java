@@ -5,8 +5,12 @@ import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
 @Component
-@Qualifier("shadi")
 public class ShadiDotCom implements Applications {
+	
+	public ShadiDotCom() {
+		// TODO Auto-generated constructor stub
+		System.out.println("ShadiDotCom.ShadiDotCom()");
+	}
 
 	@Override
 	public void doubleClick() {

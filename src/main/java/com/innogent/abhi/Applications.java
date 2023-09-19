@@ -4,5 +4,4 @@ public interface Applications {
 	void doubleClick();
 	void rightSwipe();
 	void singleClick();
-
 }
